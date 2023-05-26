@@ -1,0 +1,1 @@
+kubectl exec -n kubeflow-user-example-com train-api-stop-experiment-l7tjsptg-92xfd -c metrics-logger-and-collector -- wget -O- http://localhost:5000/
